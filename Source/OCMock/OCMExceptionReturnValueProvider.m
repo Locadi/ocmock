@@ -10,6 +10,7 @@
 
 - (void)handleInvocation:(NSInvocation *)anInvocation
 {
+    (void) anInvocation;
 	@throw returnValue;
 }
 

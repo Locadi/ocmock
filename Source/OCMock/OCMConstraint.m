@@ -3,7 +3,7 @@
 //  Copyright (c) 2007-2010 by Mulle Kybernetik. See License file for details.
 //---------------------------------------------------------------------------------------
 
-#import <OCMock/OCMConstraint.h>
+#import "OCMConstraint.h"
 
 
 @implementation OCMConstraint
@@ -15,6 +15,7 @@
 
 - (BOOL)evaluate:(id)value
 {
+    (void) value;
 	return NO;
 }
 
@@ -52,6 +53,7 @@
 
 - (BOOL)evaluate:(id)value
 {
+    (void) value;
 	return YES;
 }
 

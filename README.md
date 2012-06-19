@@ -1,3 +1,6 @@
+This is a ever so slightly modified fork of OCMock that allows for building inside another project in stead of building it as a framework.
+
+
 OCMock
 ======
 

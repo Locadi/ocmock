@@ -23,6 +23,7 @@
 
 - (void)handleInvocation:(NSInvocation *)anInvocation
 {
+    (void) anInvocation;
 	[[NSNotificationCenter defaultCenter] postNotification:notification];
 }
 
